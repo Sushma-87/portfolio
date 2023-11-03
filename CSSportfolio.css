@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+
+header{
+    position: absolute;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    right: 0;
+}
+header a:hover:not(:last-child){
+    color: black;
+}
+header a:not(:last-child){
+    text-decoration: none;
+    font-family: 'Gabarito', sans-serif;
+    color: #D3D3D3;
+    font-size: 30px;
+    cursor: grab;
+}
+header button{
+    height: 20px;
+}
+header a:last-child{
+        height: 30px;
+        width: fit-content;
+        background-color: rgb(230, 236, 236);
+        border-radius: 10px;
+        padding: 7px 15px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.home{
+    height: 100vh;
+    width: 100%;
+  background-image: linear-gradient(rgb(241, 135, 135),rgb(235, 223, 114));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home h1 span{
+    letter-spacing: 5px;
+    background-image: linear-gradient(black,rgb(223, 95, 95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    font-size: 80px;
+
+}
+.home h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(pink,white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image{
+    height: 60vh;
+    /* border: solid; */
+    /* position:absolute; */
+    top: 60px;
+}
+.image img{
+    width: 300px;
+    height: 50vh;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.letter{
+    height: 30vh;
+    width: 150vh;
+    /* border: solid; */
+
+    top: 160px; 
+    align-content: center;
+}
+.letter p{
+    align-content: center;
+    position: absolute;
+   margin-top: 420px;
+   margin-left: 90px;
+   
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+.skill-one{
+    height: 60vh;
+    width: 50%;
+    /* border: solid; */
+    position: relative;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill-one img{
+    height: 170px;
+    width: 170px;
+}
+.skill-one div p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.project{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(178, 235, 222),rgb(143, 240, 143));
+}
+.head{
+   
+}
+.head h1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(236, 178, 178),rgb(184, 184, 245));
+}
+table{
+    height: 300px;
+    width: 50%;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    /* margin-top: 100px;
+    margin-left: 1%; */
+}
+table h1{
+    padding-left: 18%;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+table p{
+    padding-left: 20%;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+table .a{
+    height: 5px;
+    width: 200%;
+    padding: 10%;
+    margin-top: 15%;
+    background-color: whitesmoke;
+}
+table .b{
+    height: 7px;
+    width: 200%;
+    padding: 10%;
+    background-color: whitesmoke;
+}
+table .c{
+    height: 70px;
+    width: 200%;
+    padding: 10%;
+    background-color: whitesmoke;
+}
+table .d{
+    position: relative;
+    left: 410px;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+}
+.contact .d{
+    color: rgb(16, 93, 238);
+    background-color: darkgray;
+}
+/* .project1{
+    margin-top: 20px;
+    height: 100px;
+} */
+
+.proj img{
+    width: 600px;
+    height: 90vh;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 620px;
+    margin-top: 30px;
+}
+.proj p{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 20px;
+}
+.detail{
+    width: 400px;
+    height: 70vh;
+} 
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.detail p{
+    align-content: center;
+    position: absolute;
+   margin-top: 65px;
+   margin-left: 50px;
+   justify-content: space-around;
+   
+}
